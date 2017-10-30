@@ -1,0 +1,21 @@
+@charset = "utf-8";
+
+html {
+  height: 100%; /* html要素をウィンドウサイズにフィット */
+  background:url('../images/omote.jpg') no-repeat center; /*背景をhtml要素に表示*/
+  background-size:cover; /* 背景画像をhtml要素にフィット */
+}
+
+body{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+
+.login{text-align: center}
+
+h1{margin-bottom: 20px
+}
+
+#omote_moji{margin-top: 20px
+}
